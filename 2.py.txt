@@ -1,0 +1,8 @@
+from math import sqrt
+k1 = int(input("Введите 1-ый катет:"))
+k2 = int(input("Введите 2-ой катет:"))
+k3 = sqrt((k1**2)+(k2**2))
+S = 0.5*k1*k2
+P = k1+k2+k3
+print("Площадь равна:", S)
+print("Периметр равен:", P)
